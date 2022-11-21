@@ -1,0 +1,133 @@
+.header {
+    font-family: 'Roboto ', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo {
+    padding: 10px 15px;
+}
+
+.header img {
+    width: 170px;
+    height: 100%;
+}
+
+.nav_bar_menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.2em;
+    text-decoration: none;
+    margin-left: 2.5em;
+    font-size: 1em;
+}
+
+.nav_bar_menu a {
+    color: aliceblue;
+}
+
+.explore a {
+    color: rgb(221, 185, 3);
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+
+.link {    
+    padding-right: 0.7em;
+    font-weight: bold;
+}
+
+.linka {
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.linka a {
+    color: rgb(124, 124, 124);
+    
+}
+
+.header-right {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header-right a {
+    color: aliceblue;
+}
+
+.create {
+    background-color: rgb(84, 84, 84);
+    border-radius: 3px;
+    padding: 0.65em 1.1em;
+    border: none;
+    text-align:center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.create i {
+    color: #07df0f;
+}
+
+.searchIcon {
+    border-radius: 3px;
+    padding: 0.65em 0.5em;
+    margin-left: 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: rgb(84, 84, 84);
+}
+
+.logIn {
+    background-color: rgb(84, 84, 84);
+    border-radius: 3px;
+    padding: 0.65em 1em;
+    margin-left: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.signUp {
+    background-color: rgb(84, 84, 84);
+    border-radius: 3px;
+    padding: 0.65em 1em;
+    margin-right: 0px;
+    margin-left: 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+

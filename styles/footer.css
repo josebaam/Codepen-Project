@@ -1,0 +1,23 @@
+.footer {
+    font-family: 'Roboto ', sans-serif;
+    display: flex;
+}
+
+.footer a{
+    /*background-color: #000000;*/
+    color: aliceblue;
+    text-align: center;
+    flex: 25%;
+    font-size: 1em;
+    background-color: #626262;
+    border: solid rgb(154, 154, 154) 1px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+
+.footer .negrita {
+    font-size: 1.5em;
+}
+
+
